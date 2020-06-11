@@ -1,0 +1,30 @@
+{
+  "name": "implore",
+  "version": "0.0.1",
+  "description": "Promise-based http client library with fluent API",
+  "main": "lib/implore.js",
+  "scripts": {
+    "test": "ava",
+    "test:cov": "nyc ava",
+    "lint": "eslint --ignore-path .gitignore --ext .js lib/ example/",
+    "start": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmamcallister/implore.git"
+  },
+  "author": "Alex McAllister",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jmamcallister/implore/issues"
+  },
+  "homepage": "https://github.com/jmamcallister/implore#readme",
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nyc": "^15.1.0",
+    "prettier": "^2.0.5"
+  }
+}
